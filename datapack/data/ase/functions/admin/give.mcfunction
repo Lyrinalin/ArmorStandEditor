@@ -1,0 +1,3 @@
+execute if entity @s[tag=ase.admin] run give @s minecraft:stick[minecraft:custom_data={ase:{wand:1}},minecraft:item_name='{"text":"ASE Wand","italic":false,"color":"aqua"}',minecraft:lore=['{"text":"Armor Stand Editor","italic":false,"color":"gray"}','{"text":"Right-click to select","italic":false,"color":"dark_gray"}'],minecraft:item_model="ase:ase_wand"] 1
+execute if entity @s[tag=ase.admin] run tellraw @s {"text":"ASE Wand выдан. Посмотри на стойку и используй предмет, затем /trigger ase.menu","color":"green"}
+execute unless entity @s[tag=ase.admin] run tellraw @s {"text":"Нет доступа. Требуется тег ase.admin","color":"red"}

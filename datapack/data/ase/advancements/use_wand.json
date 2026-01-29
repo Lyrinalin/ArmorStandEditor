@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "use_wand": {
+      "trigger": "minecraft:used_item",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:stick"],
+          "components": {
+            "minecraft:custom_data": {
+              "ase": {
+                "wand": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ase:input/wand_use"
+  }
+}

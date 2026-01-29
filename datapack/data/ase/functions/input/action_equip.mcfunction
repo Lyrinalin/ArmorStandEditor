@@ -1,0 +1,9 @@
+execute if score @s ase.action matches 1 run function ase:stand/equip/helmet
+execute if score @s ase.action matches 2 run function ase:stand/equip/chest
+execute if score @s ase.action matches 3 run function ase:stand/equip/legs
+execute if score @s ase.action matches 4 run function ase:stand/equip/boots
+execute if score @s ase.action matches 5 run function ase:stand/equip/mainhand
+execute if score @s ase.action matches 6 run function ase:stand/equip/offhand
+execute if score @s ase.action matches 7 run function ase:stand/equip/clear_all
+execute if score @s ase.action matches 8 run function ase:stand/equip/clear_hands
+execute if score @s ase.action matches 9 run function ase:stand/equip/clear_armor

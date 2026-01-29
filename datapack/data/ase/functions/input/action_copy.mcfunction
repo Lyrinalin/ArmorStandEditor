@@ -1,0 +1,12 @@
+execute if score @s ase.action matches 1 run function ase:copy/stand_copy
+execute if score @s ase.action matches 2 run function ase:copy/stand_paste
+execute if score @s ase.action matches 3 run function ase:copy/preset_save1
+execute if score @s ase.action matches 4 run function ase:copy/preset_save2
+execute if score @s ase.action matches 5 run function ase:copy/preset_save3
+execute if score @s ase.action matches 6 run function ase:copy/preset_save4
+execute if score @s ase.action matches 7 run function ase:copy/preset_save5
+execute if score @s ase.action matches 8 run function ase:copy/preset_load1
+execute if score @s ase.action matches 9 run function ase:copy/preset_load2
+execute if score @s ase.action matches 10 run function ase:copy/preset_load3
+execute if score @s ase.action matches 11 run function ase:copy/preset_load4
+execute if score @s ase.action matches 12 run function ase:copy/preset_load5

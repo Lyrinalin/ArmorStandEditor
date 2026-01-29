@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:armor_stand,tag=ase.selected,sort=nearest,limit=1] if score @s ase.owner = @p ase.pid run data merge entity @s {Pose:{Head:[10f,0f,0f],Body:[0f,10f,0f],LeftArm:[-60f,20f,-30f],RightArm:[-30f,-20f,30f],LeftLeg:[20f,10f,0f],RightLeg:[-20f,-10f,0f]}}
