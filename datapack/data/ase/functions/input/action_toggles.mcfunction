@@ -1,0 +1,9 @@
+execute if score @s ase.action matches 1 run function ase:stand/toggles/arms
+execute if score @s ase.action matches 2 run function ase:stand/toggles/baseplate
+execute if score @s ase.action matches 3 run function ase:stand/toggles/small
+execute if score @s ase.action matches 4 run function ase:stand/toggles/invisible
+execute if score @s ase.action matches 5 run function ase:stand/toggles/marker
+execute if score @s ase.action matches 6 run function ase:stand/toggles/gravity
+execute if score @s ase.action matches 7 run function ase:stand/toggles/name_visible
+execute if score @s ase.action matches 8 run function ase:stand/toggles/glow
+execute if score @s ase.action matches 9 run function ase:stand/toggles/reset

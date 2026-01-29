@@ -1,0 +1,4 @@
+execute if score @s ase.move_step matches 1 run execute as @s at @s rotated as @s run execute as @e[type=minecraft:armor_stand,tag=ase.selected,sort=nearest,limit=1] if score @s ase.owner = @p ase.pid run tp @s ^0.01 ^ ^
+execute if score @s ase.move_step matches 2 run execute as @s at @s rotated as @s run execute as @e[type=minecraft:armor_stand,tag=ase.selected,sort=nearest,limit=1] if score @s ase.owner = @p ase.pid run tp @s ^0.05 ^ ^
+execute if score @s ase.move_step matches 3 run execute as @s at @s rotated as @s run execute as @e[type=minecraft:armor_stand,tag=ase.selected,sort=nearest,limit=1] if score @s ase.owner = @p ase.pid run tp @s ^0.1 ^ ^
+execute if score @s ase.move_step matches 4 run execute as @s at @s rotated as @s run execute as @e[type=minecraft:armor_stand,tag=ase.selected,sort=nearest,limit=1] if score @s ase.owner = @p ase.pid run tp @s ^0.25 ^ ^

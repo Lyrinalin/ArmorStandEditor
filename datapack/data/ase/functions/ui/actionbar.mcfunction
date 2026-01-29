@@ -1,0 +1,1 @@
+execute as @s at @s run execute as @e[type=minecraft:armor_stand,tag=ase.selected,sort=nearest,limit=1] if score @s ase.owner = @p ase.pid run title @p actionbar {"text":"ASE: stand selected | /trigger ase.menu to open menu","color":"gold"}

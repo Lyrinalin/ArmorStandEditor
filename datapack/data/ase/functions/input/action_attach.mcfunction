@@ -1,0 +1,14 @@
+execute if score @s ase.action matches 1 run function ase:attach/add_item_display
+execute if score @s ase.action matches 2 run function ase:attach/remove_last
+execute if score @s ase.action matches 3 run function ase:attach/list
+execute if score @s ase.action matches 4 run function ase:attach/nudge_x_pos
+execute if score @s ase.action matches 5 run function ase:attach/nudge_x_neg
+execute if score @s ase.action matches 6 run function ase:attach/nudge_y_pos
+execute if score @s ase.action matches 7 run function ase:attach/nudge_y_neg
+execute if score @s ase.action matches 8 run function ase:attach/nudge_z_pos
+execute if score @s ase.action matches 9 run function ase:attach/nudge_z_neg
+execute if score @s ase.action matches 10 run function ase:attach/yaw_plus
+execute if score @s ase.action matches 11 run function ase:attach/yaw_minus
+execute if score @s ase.action matches 12 run function ase:attach/scale_up
+execute if score @s ase.action matches 13 run function ase:attach/scale_down
+execute if score @s ase.action matches 14 run function ase:attach/cleanup
